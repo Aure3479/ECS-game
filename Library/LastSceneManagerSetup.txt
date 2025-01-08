@@ -1,0 +1,9 @@
+sceneSetups:
+- path: Assets/ModularFirstPersonController/DemoScene/Demo.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
+- path: Assets/ModularFirstPersonController/DemoScene/Demo/1stsubscne.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 1

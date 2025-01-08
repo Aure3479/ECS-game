@@ -1,0 +1,656 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.31f1 (a206c360e2a8) revision 10618563'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'fr' Physical Memory: 15713 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.31f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/aurel/ECS game
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+56792
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/aurel/ECS game
+C:/Users/aurel/ECS game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [41436]  Target information:
+
+Player connection [41436]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1351121181 [EditorId] 1351121181 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-03JMI4G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [41436]  * "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 1351121181 [EditorId] 1351121181 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-03JMI4G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [41436]  * "[IP] 192.168.1.100 [Port] 0 [Flags] 2 [Guid] 1351121181 [EditorId] 1351121181 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-03JMI4G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [41436] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [41436] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 6.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.31f1 (a206c360e2a8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/aurel/ECS game/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     7856 MB
+    Driver:   27.20.21020.3
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016212 seconds.
+- Loaded All Assemblies, in  1.436 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.509 seconds
+Domain Reload Profiling: 2937ms
+	BeginReloadAssembly (606ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (111ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (183ms)
+	LoadAllAssembliesAndSetupDomain (485ms)
+		LoadAssemblies (587ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (477ms)
+			TypeCache.Refresh (473ms)
+				TypeCache.ScanAssembly (437ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1512ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1333ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (96ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (190ms)
+			ProcessInitializeOnLoadAttributes (815ms)
+			ProcessInitializeOnLoadMethodAttributes (217ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  4.420 seconds
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 16.69 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+TypeManager.Initialize took: 1567ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.617 seconds
+Domain Reload Profiling: 10014ms
+	BeginReloadAssembly (667ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (125ms)
+	RebuildCommonClasses (136ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (204ms)
+	LoadAllAssembliesAndSetupDomain (3358ms)
+		LoadAssemblies (2175ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1603ms)
+			TypeCache.Refresh (1163ms)
+				TypeCache.ScanAssembly (1079ms)
+			BuildScriptInfoCaches (379ms)
+			ResolveRequiredComponents (52ms)
+	FinalizeReload (5619ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4655ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (17ms)
+			BeforeProcessingInitializeOnLoad (543ms)
+			ProcessInitializeOnLoadAttributes (3217ms)
+			ProcessInitializeOnLoadMethodAttributes (824ms)
+			AfterProcessingInitializeOnLoad (43ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (34ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 7.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 207 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7884 unused Assets / (5.6 MB). Loaded Objects now: 8557.
+Memory consumption went from 190.5 MB to 184.9 MB.
+Total: 30.157300 ms (FindLiveObjects: 1.850900 ms CreateObjectMapping: 2.726800 ms MarkObjects: 17.152400 ms  DeleteObjects: 8.424700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 111334.400416 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Lamps/Lamp_1_Gray.prefab
+  artifactKey: Guid(42f8207b22bef13448723144025b4eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Lamps/Lamp_1_Gray.prefab using Guid(42f8207b22bef13448723144025b4eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9be451d3bf54a047ca938b61c4263a89') in 12.9088959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 77
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Crossbows/Crossbow_3_Gray.prefab
+  artifactKey: Guid(f973fc0b73a46d14ab7fe7b970898d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Crossbows/Crossbow_3_Gray.prefab using Guid(f973fc0b73a46d14ab7fe7b970898d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e2275ec87622a6ee78fef5dd50a4746') in 0.0688073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 54
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Flowers/Flower_5_Gray.prefab
+  artifactKey: Guid(48bd152ca00da2b49bcc8ce5c335d0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Flowers/Flower_5_Gray.prefab using Guid(48bd152ca00da2b49bcc8ce5c335d0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1173ba52a11eb944209c3986ce98333') in 0.0485349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Flowers/Flower_3_White.prefab
+  artifactKey: Guid(81df5116277f35243a89bf71458d3952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Flowers/Flower_3_White.prefab using Guid(81df5116277f35243a89bf71458d3952) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16070331751a85e81394763b01f948c3') in 0.0872487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Chairs/Chair_1_Gray.prefab
+  artifactKey: Guid(3b951b56003a21b4585a21fba89c5b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Chairs/Chair_1_Gray.prefab using Guid(3b951b56003a21b4585a21fba89c5b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '976c59434114e95ff30f83622ec9cc7d') in 0.0721324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Flowers/Flower_1_Black.prefab
+  artifactKey: Guid(af66e6b1222d578439bc7ccd35ea26bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Flowers/Flower_1_Black.prefab using Guid(af66e6b1222d578439bc7ccd35ea26bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f95849a8ff7b715ed0d56891261d6e6') in 0.0704627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Crossbows/Crossbow_2_Brown.prefab
+  artifactKey: Guid(7ad9310077e691e4b8d567fac8f557bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Crossbows/Crossbow_2_Brown.prefab using Guid(7ad9310077e691e4b8d567fac8f557bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15269cf881eac56176cd64bdd64fad5c') in 0.0829357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Chairs/Chair_5_White.prefab
+  artifactKey: Guid(ad74951efa9f1084ca442781fe851876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Chairs/Chair_5_White.prefab using Guid(ad74951efa9f1084ca442781fe851876) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b92e983e58586964086b70eaec55391') in 0.128307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Flowers/Flower_4_Gray.prefab
+  artifactKey: Guid(9f51f514a056c0746aa1e7f8e7949414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Flowers/Flower_4_Gray.prefab using Guid(9f51f514a056c0746aa1e7f8e7949414) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c9d50644a604baa245e1060784a70af') in 0.0751443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Flowers/Flower_1_Gray.prefab
+  artifactKey: Guid(6a35fca545fb8f3488e863145a2e3547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Flowers/Flower_1_Gray.prefab using Guid(6a35fca545fb8f3488e863145a2e3547) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a289764f4d5311643247158a3e1b421') in 0.0653913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Flowers/Flower_2_Black.prefab
+  artifactKey: Guid(dcdbf3d2608fc404883af5c2f266a237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Flowers/Flower_2_Black.prefab using Guid(dcdbf3d2608fc404883af5c2f266a237) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7185a9c9c70be834ace5ce64c141e3a') in 0.0727738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Crossbows/Crossbow_1_Gray.prefab
+  artifactKey: Guid(698fa42be1ab05141b4a0b805665bfab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Crossbows/Crossbow_1_Gray.prefab using Guid(698fa42be1ab05141b4a0b805665bfab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9d83bd7146d607a3ceb61744ecde62b') in 0.0900722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 54
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Flowers/Flower_2_Brown.prefab
+  artifactKey: Guid(afda1031dc98b9f42b9128128a610467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Flowers/Flower_2_Brown.prefab using Guid(afda1031dc98b9f42b9128128a610467) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '191bb7c151ce13639f046f8d65e564b6') in 0.074606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Chairs/Chair_5_Black.prefab
+  artifactKey: Guid(0bf52e14cbd795d45811e27092e14f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Chairs/Chair_5_Black.prefab using Guid(0bf52e14cbd795d45811e27092e14f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab9da39352ffd7e30010d9bce82302bd') in 0.0614113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Lamps/Lamp_2_Brown.prefab
+  artifactKey: Guid(08025515832ec2e4aa8806ebe5ed8285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Lamps/Lamp_2_Brown.prefab using Guid(08025515832ec2e4aa8806ebe5ed8285) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f151af9dc411ad841ed9727f6557bb08') in 0.0847242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Flowers/Flower_2_White.prefab
+  artifactKey: Guid(71773cdd07317f840af2b4a0d86e4b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Flowers/Flower_2_White.prefab using Guid(71773cdd07317f840af2b4a0d86e4b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc434f4c7a7e0523cdd85372b1175e6c') in 0.0685312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Flowers/Flower_3_Black.prefab
+  artifactKey: Guid(5c32c51346d209f43ade233fde37119a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Flowers/Flower_3_Black.prefab using Guid(5c32c51346d209f43ade233fde37119a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f4f404fd263529c82b8b737889ef620') in 0.0976239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Lamps/Lamp_3_Red.prefab
+  artifactKey: Guid(18ce2cf53c185794e86cff44935c5bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Lamps/Lamp_3_Red.prefab using Guid(18ce2cf53c185794e86cff44935c5bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ff409394827566cb4000ebff9ecc6e9') in 0.0548837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Lamps/Lamp_4_Gray.prefab
+  artifactKey: Guid(81872cf2e61420e42a5d0bee7522b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Lamps/Lamp_4_Gray.prefab using Guid(81872cf2e61420e42a5d0bee7522b4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7408b41cc97b859648497ebd3b0ad52b') in 0.0651357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Crossbows/Crossbow_4_Brown.prefab
+  artifactKey: Guid(033e1ebb31587814aa3e0c8fbbcde8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Crossbows/Crossbow_4_Brown.prefab using Guid(033e1ebb31587814aa3e0c8fbbcde8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '658e6b898f664c61b11f979dc31155b4') in 0.0580249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Crossbows/Crossbow_4_Black.prefab
+  artifactKey: Guid(fe3931887155e1a4ca528d3135cee9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Crossbows/Crossbow_4_Black.prefab using Guid(fe3931887155e1a4ca528d3135cee9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e38d991de01b0c3c588165cbf9b23d7') in 0.0799435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Lamps/Lamp_4_Black.prefab
+  artifactKey: Guid(ab40debe991465640a1d17a95fcd917a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Lamps/Lamp_4_Black.prefab using Guid(ab40debe991465640a1d17a95fcd917a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1c258ee086c986f84c244625d2a013a') in 0.1064383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Chains/Chain_2_Red.prefab
+  artifactKey: Guid(fcdca88120330094ba20eb272730b4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Chains/Chain_2_Red.prefab using Guid(fcdca88120330094ba20eb272730b4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a8b7239cb9d01a7601e02f76223f614') in 0.0475547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Chains/Chain_4_Gray.prefab
+  artifactKey: Guid(3eccbcd0c3d2489429a0b565359fb74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Chains/Chain_4_Gray.prefab using Guid(3eccbcd0c3d2489429a0b565359fb74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb96c6e206fdf3891a5957c2d8a21cfe') in 0.0820299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Chains/Chain_3_Black.prefab
+  artifactKey: Guid(bd41c4aaae743b24f826e1140c62b079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Chains/Chain_3_Black.prefab using Guid(bd41c4aaae743b24f826e1140c62b079) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c16c98fc744ffd65835b3abdaec3747') in 0.0615026 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Chains/Chain_4_White.prefab
+  artifactKey: Guid(c93b17a57e81af14dbac65c3e3437f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Chains/Chain_4_White.prefab using Guid(c93b17a57e81af14dbac65c3e3437f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5fb71b209501626a899a13d40c01869') in 0.0977605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Chains/Chain_3_Red.prefab
+  artifactKey: Guid(dd741001a54965c45b2d872c7509bd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Chains/Chain_3_Red.prefab using Guid(dd741001a54965c45b2d872c7509bd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9b2f6161dd6cfc89e997d4eadf30f33') in 0.1895329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Chains/Chain_5_White.prefab
+  artifactKey: Guid(766ad46ac93fd754aa157223b694014b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Chains/Chain_5_White.prefab using Guid(766ad46ac93fd754aa157223b694014b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a7ec033eddc970232781fda6420d1f4') in 0.0906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Chains/Chain_5_Red.prefab
+  artifactKey: Guid(e8180e9f31ea2094e884e0b7fcb48f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Chains/Chain_5_Red.prefab using Guid(e8180e9f31ea2094e884e0b7fcb48f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '472da91d78e0ca7a2e8deca6b0967f16') in 0.046374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Chains/Chain_1_White.prefab
+  artifactKey: Guid(b9fc73d326031ac40b277762ca524f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Chains/Chain_1_White.prefab using Guid(b9fc73d326031ac40b277762ca524f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9246523ffd7c6071890e5f935672f950') in 0.0359475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Cages/Cage_2_Black.prefab
+  artifactKey: Guid(13ef68107c6298c499de9a00bbb322af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Cages/Cage_2_Black.prefab using Guid(13ef68107c6298c499de9a00bbb322af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbb9723a3b04e1004528190b6dd0a5b3') in 0.0365527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Cages/Cage_3_Brown.prefab
+  artifactKey: Guid(d0597d8f556cc314181e80c8caa6f882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Cages/Cage_3_Brown.prefab using Guid(d0597d8f556cc314181e80c8caa6f882) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7391cb48d37d5323abdf4e9e7b2cd814') in 0.03938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Cages/Cage_4_Gray.prefab
+  artifactKey: Guid(d055f246a1da0f4409c90be2b3b46db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Cages/Cage_4_Gray.prefab using Guid(d055f246a1da0f4409c90be2b3b46db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e082011affc795cba36d04cee26a69b3') in 0.0695595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Cages/Cage_5_Brown.prefab
+  artifactKey: Guid(98130bef8a742b8498f45625f4c64414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Cages/Cage_5_Brown.prefab using Guid(98130bef8a742b8498f45625f4c64414) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16eadc14b86c0fab7019a6cdbe51b1c5') in 0.0753673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Cages/Cage_3_Red.prefab
+  artifactKey: Guid(4d5bf3d8307130a4eb9c0d45307c3cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Cages/Cage_3_Red.prefab using Guid(4d5bf3d8307130a4eb9c0d45307c3cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a8cf4ad9025c537a71ef9ad5f67b4c2') in 0.0555697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Cages/Cage_2_White.prefab
+  artifactKey: Guid(070c2ba04583325438bb8f62fafa3023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Cages/Cage_2_White.prefab using Guid(070c2ba04583325438bb8f62fafa3023) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4be31a50dd487f21764c2f6503135c12') in 0.0711388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Cages/Cage_1_Gray.prefab
+  artifactKey: Guid(04457b2e5c895ed45becdf44b3ab461e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Cages/Cage_1_Gray.prefab using Guid(04457b2e5c895ed45becdf44b3ab461e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8b7d89e99aac05d00f268b05830e09d') in 0.0815512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Cages/Cage_2_Brown.prefab
+  artifactKey: Guid(1fa014f0d07bd4544b5bb669cb90ef69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Cages/Cage_2_Brown.prefab using Guid(1fa014f0d07bd4544b5bb669cb90ef69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ba49a64ad33ed8578de582bef58ea1e') in 0.0848659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Crossbows/Crossbow_5_Gray.prefab
+  artifactKey: Guid(cdab6038c33abf94987431bb54e48bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Crossbows/Crossbow_5_Gray.prefab using Guid(cdab6038c33abf94987431bb54e48bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '257fff318912a917ed816142f36e6a96') in 0.0667336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 66
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Cages/Cage_5_Gray.prefab
+  artifactKey: Guid(f80e99717a80a6a42b33e4374ac57b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Cages/Cage_5_Gray.prefab using Guid(f80e99717a80a6a42b33e4374ac57b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6abfde484b2ea61f2b8b72f43fe5b215') in 0.1025294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Flowers/Flower_2_Gray.prefab
+  artifactKey: Guid(eb6898b19307bf845bf8de4d32c4bb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Flowers/Flower_2_Gray.prefab using Guid(eb6898b19307bf845bf8de4d32c4bb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '542d40e065360eb89f7708757f2f27aa') in 0.0734004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Lamps/Lamp_4_Red.prefab
+  artifactKey: Guid(d557f4121e657e041a3e759096ce96f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Lamps/Lamp_4_Red.prefab using Guid(d557f4121e657e041a3e759096ce96f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a351f671e87949f6a82205d1aa1816a5') in 0.0635103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Flowers/Flower_4_Brown.prefab
+  artifactKey: Guid(c1ca06372db05e741b2394890a373962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Flowers/Flower_4_Brown.prefab using Guid(c1ca06372db05e741b2394890a373962) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85d7178fbad53110d1574dfd18d3f7da') in 0.0933688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Flowers/Flower_1_Brown.prefab
+  artifactKey: Guid(11b0f6eb924c163449ad54cab06d58dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Flowers/Flower_1_Brown.prefab using Guid(11b0f6eb924c163449ad54cab06d58dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b767d8a84834405f5ecb1d3b3736040') in 0.0537004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.998235 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Axes/Axe_3_Gray.prefab
+  artifactKey: Guid(f57c33cb6a0773943be0f40169095636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Axes/Axe_3_Gray.prefab using Guid(f57c33cb6a0773943be0f40169095636) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47a2eb04c3221a8a64bb0eb6208f9ba7') in 0.043451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Axes/Axe_4_Black.prefab
+  artifactKey: Guid(bd192c65a9ed9f342827d076de4755c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Axes/Axe_4_Black.prefab using Guid(bd192c65a9ed9f342827d076de4755c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8abb3533c3d7e39a03ed0d6dbc8bc4c') in 0.0418138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Axes/Axe_4_White.prefab
+  artifactKey: Guid(8da7eff60f21e6b45809c88ae9f314db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Axes/Axe_4_White.prefab using Guid(8da7eff60f21e6b45809c88ae9f314db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f7b42e3acb5f7f121d003fd5c8b31f8') in 0.0636339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Axes/Axe_5_Black.prefab
+  artifactKey: Guid(cc70db05110f6d3429a783fb69f6ce81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Axes/Axe_5_Black.prefab using Guid(cc70db05110f6d3429a783fb69f6ce81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c29e61e69b2a5069127f9c390c2b7d5a') in 0.0721713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/AA Low Poly Medieval Environment/Prefabs/Axes/Axe_4_Gray.prefab
+  artifactKey: Guid(f5bee8f257bd2d94f9021ea4c3c07f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Axes/Axe_4_Gray.prefab using Guid(f5bee8f257bd2d94f9021ea4c3c07f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b832191768f9c1a04344cc8ea3602b2e') in 0.059729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 2059.995467 seconds.
+  path: Assets/Building_Blocks_LITE/Prefabs/1_M_Tall/BB_1x8x1.prefab
+  artifactKey: Guid(2c9913c4db16b7d4c9e0aff11bbbd8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building_Blocks_LITE/Prefabs/1_M_Tall/BB_1x8x1.prefab using Guid(2c9913c4db16b7d4c9e0aff11bbbd8c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a6618f28f0a693e6409e6b578765121') in 1.3236075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002696 seconds.
+  path: Assets/Building_Blocks_LITE/Prefabs/1_M_Tall/BB_4x2x1.prefab
+  artifactKey: Guid(31eed3f9450d33e4392cd176800bf8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building_Blocks_LITE/Prefabs/1_M_Tall/BB_4x2x1.prefab using Guid(31eed3f9450d33e4392cd176800bf8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f6b1356c7d5cbbecf44816b4f7ac344') in 0.1494608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Building_Blocks_LITE/Prefabs/1_M_Tall/BB_2x8x1.prefab
+  artifactKey: Guid(e910983c362bbbe4fbe6c5e3153f19e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building_Blocks_LITE/Prefabs/1_M_Tall/BB_2x8x1.prefab using Guid(e910983c362bbbe4fbe6c5e3153f19e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2381201e619c8e51ac491c83b0d5a131') in 0.1775266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Building_Blocks_LITE/Prefabs/1_M_Tall/BB_2x2x1.prefab
+  artifactKey: Guid(fa717d863d68f3a4b8ce20b301cbafd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building_Blocks_LITE/Prefabs/1_M_Tall/BB_2x2x1.prefab using Guid(fa717d863d68f3a4b8ce20b301cbafd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2981f8f73dbecc67723ecf6d2b2dcf73') in 0.1906337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Building_Blocks_LITE/Prefabs/1_M_Tall/BB_Corner_4x2x1.prefab
+  artifactKey: Guid(d801d5decf2b89343a52d302c223200a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building_Blocks_LITE/Prefabs/1_M_Tall/BB_Corner_4x2x1.prefab using Guid(d801d5decf2b89343a52d302c223200a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1cdedfcf29f234f29856dbf2b814a098') in 0.1102098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Building_Blocks_LITE/Prefabs/1_M_Tall/BB_4x1x1.prefab
+  artifactKey: Guid(a11aa666e5f9d644b9d848d28c5813e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building_Blocks_LITE/Prefabs/1_M_Tall/BB_4x1x1.prefab using Guid(a11aa666e5f9d644b9d848d28c5813e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e26f836de53b8bbe06d17481d0dfbe07') in 0.0828891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Building_Blocks_LITE/Prefabs/1_M_Tall/BB_Hollow_8x8x1.prefab
+  artifactKey: Guid(f98de1bc3a080444986224daacbb8bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building_Blocks_LITE/Prefabs/1_M_Tall/BB_Hollow_8x8x1.prefab using Guid(f98de1bc3a080444986224daacbb8bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ff766fe8f34c7c5d942706b14e2f7f7') in 0.2379101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Building_Blocks_LITE/Prefabs/1_M_Tall/BB_Hollow_4x4x1.prefab
+  artifactKey: Guid(d29b7bc740cdad043a20aed17f370a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building_Blocks_LITE/Prefabs/1_M_Tall/BB_Hollow_4x4x1.prefab using Guid(d29b7bc740cdad043a20aed17f370a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fd127a2b4c29038c54283748ecb14f6') in 0.1048572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
