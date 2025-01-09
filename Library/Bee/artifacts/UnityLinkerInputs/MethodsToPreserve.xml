@@ -3,6 +3,7 @@
 		<type fullname="MenuUI">
 			<method name="OnClickStartGame"/>
 			<method name="OnClickStartGame"/>
+			<method name="OnClickStartGame"/>
 		</type>
 	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Core.Runtime" ignoreIfMissing="1">

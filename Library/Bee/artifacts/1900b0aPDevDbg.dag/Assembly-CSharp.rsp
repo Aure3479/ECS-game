@@ -376,7 +376,6 @@
 -analyzer:"Library/PackageCache/com.unity.entities/Unity.Entities/SourceGenerators/SystemGenerator.SystemAPI.QueryBuilder.dll"
 -analyzer:"Library/PackageCache/com.unity.entities/Unity.Entities/SourceGenerators/Unity.Entities.Analyzer.CodeFixes.dll"
 -analyzer:"Library/PackageCache/com.unity.entities/Unity.Entities/SourceGenerators/Unity.Entities.Analyzer.dll"
-"Assets/Low Poly Trim Sheet Asset Collection/DemoSceneAssets/DemoSceneScripts/DemoCameraMovement.cs"
 "Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs"
 "Assets/NewBehaviourScript.cs"
 "Assets/Samples/Character Controller/1.2.4/Standard Characters/Common/Scripts/Camera/MainCameraSystem.cs"

@@ -9,6 +9,11 @@ using UnityEngine;
 public partial struct EnvironmentSideSpawnSystem : ISystem
 {
     private bool hasSpawned;
+    public void OnCreate(ref SystemState state)
+    {
+        state.RequireForUpdate<EnvPrefabsData>();
+    }
+
     public void OnUpdate(ref SystemState state)
     {
         if (hasSpawned)

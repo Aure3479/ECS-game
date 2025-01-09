@@ -17,9 +17,11 @@ public partial struct AxeForwardSystem : ISystem
             float moveSpeed = axeData.ValueRO.MoveSpeed;
             float spinSpeed = axeData.ValueRO.SpinSpeed;
 
-            // Avance sur Z
             float3 pos = transform.ValueRO.Position;
-            pos.z += moveSpeed * dt;
+            // Avance sur x
+            if(pos.x ==8 | pos.x == -8) { moveSpeed = -moveSpeed; }
+                
+            pos.x += moveSpeed * dt;
 
             // Tourne autour de Y (autour de son axe vertical)
             quaternion rot = transform.ValueRO.Rotation;

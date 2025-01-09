@@ -113,9 +113,9 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
-    <Compile Include="Assets\Script\ECS\TrapSpawnSystem.cs" />
-    <Compile Include="Assets\Samples\Character Controller\1.2.4\Standard Characters\ThirdPerson\Scripts\ThirdPersonCharacterSystems.cs" />
     <Compile Include="Assets\Script\GameUIManager.cs" />
+    <Compile Include="Assets\Samples\Character Controller\1.2.4\Standard Characters\ThirdPerson\Scripts\ThirdPersonCharacterSystems.cs" />
+    <Compile Include="Assets\Script\ECS\TrapSpawnSystem.cs" />
     <Compile Include="Assets\Script\ECS\Trapbase Authoring.cs" />
     <Compile Include="Assets\Samples\Character Controller\1.2.4\Standard Characters\ThirdPerson\Scripts\OrbitCamera\OrbitCameraSystems.cs" />
     <Compile Include="Assets\Samples\Character Controller\1.2.4\Standard Characters\Common\Scripts\Camera\MainCameraSystem.cs" />
@@ -680,6 +680,10 @@
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil\Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.31f1\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
@@ -1354,10 +1358,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.Transforms.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.CharacterController">
       <HintPath>Library\ScriptAssemblies\Unity.CharacterController.dll</HintPath>
       <Private>False</Private>
@@ -1368,6 +1368,10 @@
     </Reference>
     <Reference Include="Unity.Scenes">
       <HintPath>Library\ScriptAssemblies\Unity.Scenes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">

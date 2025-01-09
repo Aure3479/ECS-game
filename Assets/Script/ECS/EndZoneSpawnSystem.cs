@@ -21,7 +21,10 @@ public partial struct EndZoneSpawnSystem : ISystem
 
     // Où placer cette zone (ex. fin du couloir)
     private const float endZoneZ = 200f; // Suppose que ton couloir s’arrête ~150
-
+    public void OnCreate(ref SystemState state)
+    {
+        state.RequireForUpdate<EndZonePrefabsData>();
+    }
     public void OnUpdate(ref SystemState state)
     {
         if (hasSpawned)
@@ -90,7 +93,7 @@ public partial struct EndZoneSpawnSystem : ISystem
             }
 
             // 3) Placer éventuellement quelques fleurs random
-            int flowerCount = 30;
+            int flowerCount = 600;
             float flowerRadius = radiusPillarsEnd;
             for (int f = 0; f < flowerCount; f++)
             {

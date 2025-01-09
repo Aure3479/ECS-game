@@ -5,7 +5,7 @@ using Unity.Mathematics;
 public class MovingAxeAuthoring : MonoBehaviour
 {
     [Header("Movement & Rotation")]
-    public float moveSpeed = 5f;   // avance sur un axe
+    public float moveSpeed = 7f;   // avance sur un axe
     public float spinSpeed = 180f; // rotation sur elle-même (deg/s)
 }
 

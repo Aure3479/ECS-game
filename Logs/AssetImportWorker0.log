@@ -15,7 +15,7 @@ C:/Users/aurel/ECS game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50533
+51255
 -job-worker-count
 5
 -background-job-worker-count
@@ -59,16 +59,16 @@ C:/Users/aurel/ECS game
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [92]  Target information:
+Player connection [39516]  Target information:
 
-Player connection [92]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1107178282 [EditorId] 1107178282 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-03JMI4G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [39516]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1337633085 [EditorId] 1337633085 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-03JMI4G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [92]  * "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 1107178282 [EditorId] 1107178282 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-03JMI4G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [39516]  * "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 1337633085 [EditorId] 1337633085 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-03JMI4G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [92]  * "[IP] 10.1.224.104 [Port] 0 [Flags] 2 [Guid] 1107178282 [EditorId] 1107178282 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-03JMI4G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [39516]  * "[IP] 10.1.161.170 [Port] 0 [Flags] 2 [Guid] 1337633085 [EditorId] 1337633085 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-03JMI4G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [92] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [92] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [39516] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [39516] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -79,7 +79,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 251.31 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 371.79 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.31f1 (a206c360e2a8)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/Resources/UnitySubsystems
@@ -95,45 +95,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.571381 seconds.
-- Loaded All Assemblies, in 14.011 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.036854 seconds.
+- Loaded All Assemblies, in  2.119 seconds
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.559 seconds
-Domain Reload Profiling: 14563ms
-	BeginReloadAssembly (10836ms)
+- Finished resetting the current domain, in  1.281 seconds
+Domain Reload Profiling: 3385ms
+	BeginReloadAssembly (587ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (733ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (658ms)
-	LoadAllAssembliesAndSetupDomain (1760ms)
-		LoadAssemblies (10830ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (156ms)
+	RebuildNativeTypeToScriptingClass (45ms)
+	initialDomainReloadingComplete (268ms)
+	LoadAllAssembliesAndSetupDomain (1046ms)
+		LoadAssemblies (575ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1754ms)
-			TypeCache.Refresh (1752ms)
-				TypeCache.ScanAssembly (1381ms)
+		AnalyzeDomain (1033ms)
+			TypeCache.Refresh (1029ms)
+				TypeCache.ScanAssembly (975ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (559ms)
+	FinalizeReload (1282ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (513ms)
+		SetupLoadedEditorAssemblies (1109ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (39ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (83ms)
-			ProcessInitializeOnLoadAttributes (278ms)
-			ProcessInitializeOnLoadMethodAttributes (106ms)
+			InitializePlatformSupportModulesInManaged (142ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (158ms)
+			ProcessInitializeOnLoadAttributes (600ms)
+			ProcessInitializeOnLoadMethodAttributes (199ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -145,792 +149,403 @@ Import Worker Mode flag is 0x00
 Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
 Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 16.049 seconds
+- Loaded All Assemblies, in  3.361 seconds
 Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 4.25 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 7.90 ms, found 4 plugins.
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 614ms
+TypeManager.Initialize took: 1043ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.575 seconds
-Domain Reload Profiling: 19589ms
-	BeginReloadAssembly (286ms)
+- Finished resetting the current domain, in  4.614 seconds
+Domain Reload Profiling: 7944ms
+	BeginReloadAssembly (540ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (25ms)
+		DisableScriptedObjects (18ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (56ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (67ms)
-	LoadAllAssembliesAndSetupDomain (15589ms)
-		LoadAssemblies (14267ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (142ms)
+	RebuildNativeTypeToScriptingClass (42ms)
+	initialDomainReloadingComplete (180ms)
+	LoadAllAssembliesAndSetupDomain (2425ms)
+		LoadAssemblies (1613ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1485ms)
-			TypeCache.Refresh (1329ms)
-				TypeCache.ScanAssembly (1224ms)
-			BuildScriptInfoCaches (135ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (3576ms)
+		AnalyzeDomain (1134ms)
+			TypeCache.Refresh (814ms)
+				TypeCache.ScanAssembly (768ms)
+			BuildScriptInfoCaches (252ms)
+			ResolveRequiredComponents (61ms)
+	FinalizeReload (4615ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2619ms)
+		SetupLoadedEditorAssemblies (4017ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (241ms)
-			ProcessInitializeOnLoadAttributes (1649ms)
-			ProcessInitializeOnLoadMethodAttributes (703ms)
-			AfterProcessingInitializeOnLoad (14ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (452ms)
+			ProcessInitializeOnLoadAttributes (2506ms)
+			ProcessInitializeOnLoadMethodAttributes (1001ms)
+			AfterProcessingInitializeOnLoad (26ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 5.07 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (15ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 7.64 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 207 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7901 unused Assets / (5.6 MB). Loaded Objects now: 8574.
-Memory consumption went from 190.6 MB to 185.0 MB.
-Total: 23.740600 ms (FindLiveObjects: 1.531200 ms CreateObjectMapping: 2.040300 ms MarkObjects: 13.485100 ms  DeleteObjects: 6.681800 ms)
+Unloading 217 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7999 unused Assets / (7.1 MB). Loaded Objects now: 8683.
+Memory consumption went from 194.3 MB to 187.3 MB.
+Total: 33.187200 ms (FindLiveObjects: 1.860200 ms CreateObjectMapping: 2.219000 ms MarkObjects: 19.451000 ms  DeleteObjects: 9.653400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 30619.180678 seconds.
-  path: Assets/Script/ECS/TrapMatrixSpawnSystem.cs
-  artifactKey: Guid(f14ba5d2b28433f4d93ebc28ceb96529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/ECS/TrapMatrixSpawnSystem.cs using Guid(f14ba5d2b28433f4d93ebc28ceb96529) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db66414c53a68f8e5557b3cd5f0a1040') in 0.0112358 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 197875.880729 seconds.
+  path: Assets/Script/Canvas.prefab
+  artifactKey: Guid(5f9d457d3a83d0d49a1c8241b42a1786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Canvas.prefab using Guid(5f9d457d3a83d0d49a1c8241b42a1786) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4054af2eb3ae8ee4d09fb43e9e047f97') in 0.3434524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14151.197615 seconds.
-  path: Assets/Low Poly Woods/Prefabs
-  artifactKey: Guid(f4655df9dec7c8c4fb9fb328ad346210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs using Guid(f4655df9dec7c8c4fb9fb328ad346210) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2901f338104d149711850d4c57af7a99') in 0.0782483 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.192665 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Autumn
-  artifactKey: Guid(0cac0b4165a1c114ba831e7bf07f71ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Autumn using Guid(0cac0b4165a1c114ba831e7bf07f71ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4413e53a34a3e23a7fd1ea358f1e38d5') in 0.0183791 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.096831 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Autumn/Bush 1.prefab
-  artifactKey: Guid(a172436133baff64fbcb7955b61b1421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Autumn/Bush 1.prefab using Guid(a172436133baff64fbcb7955b61b1421) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5699774e4b8f5009eed521618568054e') in 5.3517988 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Autumn/Tree 6.prefab
-  artifactKey: Guid(13695ad8caa03874cb57d95712a3e430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Autumn/Tree 6.prefab using Guid(13695ad8caa03874cb57d95712a3e430) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acdcace1ff37b80f62d24ff1137d38d5') in 0.0771381 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Autumn/Tree 8.prefab
-  artifactKey: Guid(d57704f6051cb234ea7d2266420c47b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Autumn/Tree 8.prefab using Guid(d57704f6051cb234ea7d2266420c47b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e1c79cfc6a8a3d9d822877f2a2d43f3') in 0.0493953 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Autumn/Tree 14.prefab
-  artifactKey: Guid(dc63560ab0f176141b5208cadc615618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Autumn/Tree 14.prefab using Guid(dc63560ab0f176141b5208cadc615618) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdd0f0a96b7300219a319d6ecfdcc181') in 0.053928 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Autumn/Tree 2.prefab
-  artifactKey: Guid(dece1d6393c36b84c9ff3267daac763b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Autumn/Tree 2.prefab using Guid(dece1d6393c36b84c9ff3267daac763b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5d3144add32d9e5e6dab47631664e60') in 0.0462679 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000109 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Autumn/Tree 5.prefab
-  artifactKey: Guid(6b1df0ad8cbe3da43ac2b53193c32c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Autumn/Tree 5.prefab using Guid(6b1df0ad8cbe3da43ac2b53193c32c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee2cee15632db95236df59a961236231') in 0.0396976 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Autumn/Tree 12.prefab
-  artifactKey: Guid(f181acb6537e3bc46828a8aee8dca5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Autumn/Tree 12.prefab using Guid(f181acb6537e3bc46828a8aee8dca5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a12159566aa6ca490b79b12dcf80f0d') in 0.0440204 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Autumn/Tree 13.prefab
-  artifactKey: Guid(d1a25783b087377468a903bb6a93155f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Autumn/Tree 13.prefab using Guid(d1a25783b087377468a903bb6a93155f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3414c8e14a183fdfd7166865d19b39b') in 0.0494059 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Autumn/Tree 10.prefab
-  artifactKey: Guid(219f95a7222945943806df860cac0e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Autumn/Tree 10.prefab using Guid(219f95a7222945943806df860cac0e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7078ac85a5fe2aca011303b07d2343c') in 0.048717 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Autumn/Tree 7.prefab
-  artifactKey: Guid(42d43f962d5a1f447a359a8b3b8a385c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Autumn/Tree 7.prefab using Guid(42d43f962d5a1f447a359a8b3b8a385c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccefc384d80710ac3a0ac5411ec106e2') in 0.0463856 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.259478 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Rocks/Rock 1.prefab
-  artifactKey: Guid(c59d4db32c4e36e46bbf0a75f9ecf5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Rocks/Rock 1.prefab using Guid(c59d4db32c4e36e46bbf0a75f9ecf5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ad0cbe7f9e18d71e16f731490a4c016') in 0.1267332 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Rocks/Rock 4.prefab
-  artifactKey: Guid(2fbac14380a6c3849a242b85e88f5996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Rocks/Rock 4.prefab using Guid(2fbac14380a6c3849a242b85e88f5996) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7058d48c128c2e7d86da3db2f8eb633') in 0.0497961 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Rocks/Rock 10.prefab
-  artifactKey: Guid(06181f4fff0dede48b3363764eee7c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Rocks/Rock 10.prefab using Guid(06181f4fff0dede48b3363764eee7c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df9d1f5793d02b36acaf12ace1a1f348') in 0.0443459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+  Time since last request: 225.410310 seconds.
+  path: Assets/MenuScene.unity
+  artifactKey: Guid(d43e516672216b241aa641271c22e2d2) Importer(2089858483,b4928d63cba0eb686c52b1d693c2cc83)
+Start importing Assets/MenuScene.unity using Guid(d43e516672216b241aa641271c22e2d2) Importer(2089858483,b4928d63cba0eb686c52b1d693c2cc83) (ScriptedImporter)Opening scene 'Assets/MenuScene.unity additively'
+Loaded scene 'Assets/MenuScene.unity'
+	Deserialize:            13.251 ms
+	Integration:            315.476 ms
+	Integration of assets:  0.085 ms
+	Thread Wait Time:       8.217 ms
+	Total Operation Time:   337.030 ms
+ -> (artifact id: '3c6d4cc9d87cdb699948eed8e4f640fc') in 0.558552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000040 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Rocks/Rock 9.prefab
-  artifactKey: Guid(ef5c53c9ea21ad74eaf192be56fbbdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Rocks/Rock 9.prefab using Guid(ef5c53c9ea21ad74eaf192be56fbbdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f534744b3af1aff9b65ad3542de2727f') in 0.0443542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+  path: Assets/ModularFirstPersonController/DemoScene/Demo.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,b4928d63cba0eb686c52b1d693c2cc83)
+Start importing Assets/ModularFirstPersonController/DemoScene/Demo.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,b4928d63cba0eb686c52b1d693c2cc83) (ScriptedImporter)Opening scene 'Assets/ModularFirstPersonController/DemoScene/Demo.unity additively'
+Loaded scene 'Assets/ModularFirstPersonController/DemoScene/Demo.unity'
+	Deserialize:            8.967 ms
+	Integration:            69.838 ms
+	Integration of assets:  0.028 ms
+	Thread Wait Time:       0.067 ms
+	Total Operation Time:   78.900 ms
+ -> (artifact id: '5fe81f8b7700c702b2c1a90973ae2f14') in 0.1854039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 66
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Rocks/Rock moss 1.prefab
-  artifactKey: Guid(1a7504182f13892438af219fd0495b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Rocks/Rock moss 1.prefab using Guid(1a7504182f13892438af219fd0495b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e27eebc6e0df21dc6bc30d911ac5863') in 0.0458485 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+  Time since last request: 0.000048 seconds.
+  path: Assets/ModularFirstPersonController/DemoScene/Demo/1stsubscne.unity
+  artifactKey: Guid(3cf07c6863d70604188eb10f81ceaef5) Importer(2089858483,b4928d63cba0eb686c52b1d693c2cc83)
+Start importing Assets/ModularFirstPersonController/DemoScene/Demo/1stsubscne.unity using Guid(3cf07c6863d70604188eb10f81ceaef5) Importer(2089858483,b4928d63cba0eb686c52b1d693c2cc83) (ScriptedImporter)Opening scene 'Assets/ModularFirstPersonController/DemoScene/Demo/1stsubscne.unity additively'
+Loaded scene 'Assets/ModularFirstPersonController/DemoScene/Demo/1stsubscne.unity'
+	Deserialize:            20.903 ms
+	Integration:            25.649 ms
+	Integration of assets:  57.102 ms
+	Thread Wait Time:       0.088 ms
+	Total Operation Time:   103.742 ms
+ -> (artifact id: '3c8ed0f8feafd5a4304e91762e338486') in 0.2027951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 279
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Rocks/Rock 5.prefab
-  artifactKey: Guid(a3f8e155087f141438e5399af74807e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Rocks/Rock 5.prefab using Guid(a3f8e155087f141438e5399af74807e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b0748b42f4334e2b3f0e679492726f1') in 0.0619208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+  Time since last request: 0.000049 seconds.
+  path: Assets/SceneDependencyCache/cfccba2d0776b72bd21337cd12d3c9cf.sceneWithBuildSettings
+  artifactKey: Guid(cfccba2d0776b72bd21337cd12d3c9cf) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/cfccba2d0776b72bd21337cd12d3c9cf.sceneWithBuildSettings using Guid(cfccba2d0776b72bd21337cd12d3c9cf) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) (ScriptedImporter)Opening scene 'Assets/ModularFirstPersonController/DemoScene/Demo/1stsubscne.unity additively'
+Loaded scene 'Assets/ModularFirstPersonController/DemoScene/Demo/1stsubscne.unity'
+	Deserialize:            13.751 ms
+	Integration:            13.332 ms
+	Integration of assets:  11.717 ms
+	Thread Wait Time:       0.064 ms
+	Total Operation Time:   38.863 ms
+Baking TrapPrefabs...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TrapPrefabsBaker:Bake (TrapPrefabsAuthoring) (at Assets/Script/ECS/TrapPrefabsAuthoring.cs:16)
+Unity.Entities.Baker`1<TrapPrefabsAuthoring>:InvokeBake (Unity.Entities.IBaker/BakerExecutionState modreq(System.Runtime.InteropServices.InAttribute)&) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/Baker.cs:2253)
+Unity.Entities.BakedEntityData:ApplyBakeInstructions (Unity.Entities.Baking.BakeDependencies&,Unity.Entities.Baking.IncrementalBakingContext/IncrementalBakeInstructions,Unity.Entities.BlobAssetStore,Unity.Entities.BakingSettings,Unity.Entities.Baking.GameObjectComponents&) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakedEntityData.cs:834)
+Unity.Entities.BakingSystem:Bake (Unity.Entities.IncrementalBakingChangeTracker,UnityEngine.GameObject[]) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakingSystem.cs:155)
+Unity.Entities.BakingUtility:BakeScene (Unity.Entities.World,UnityEngine.SceneManagement.Scene,Unity.Entities.BakingSettings,bool,Unity.Entities.IncrementalBakingChangeTracker) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakingUtility.cs:84)
+Unity.Scenes.Editor.EditorEntityScenes:BakeAndWriteEntityScene (UnityEngine.SceneManagement.Scene,Unity.Entities.BakingSettings,System.Collections.Generic.List`1<Unity.Scenes.ReferencedUnityObjects>,Unity.Scenes.Editor.WriteEntitySceneSettings) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/EditorEntityScenes.cs:70)
+Unity.Scenes.Editor.SubSceneImporter:ImportBaking (UnityEditor.AssetImporters.AssetImportContext,UnityEngine.SceneManagement.Scene,Unity.Scenes.SceneWithBuildConfigurationGUIDs,Unity.Entities.Build.IEntitiesPlayerSettings,UnityEngine.GameObject) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/SubSceneImporter.cs:123)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/SubSceneImporter.cs:202)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+(Filename: Assets/Script/ECS/TrapPrefabsAuthoring.cs Line: 16)
+
+Renderer on GameObject "Arrow_1_White" was not converted. The assigned mesh is null or no materials are assigned.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Unity.Debug:LogWarning (object,UnityEngine.Object) (at ./Library/PackageCache/com.unity.entities/Unity.Entities/Stubs/Unity/Debug.cs:22)
+Unity.Rendering.MeshRendererBakingUtility:ValidateMeshAndMaterials (UnityEngine.Renderer,UnityEngine.Mesh,UnityEngine.Material[]) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBakingUtility.cs:254)
+Unity.Rendering.MeshRendererBakingUtility:Convert<UnityEngine.MeshRenderer> (Unity.Entities.Baker`1<UnityEngine.MeshRenderer>,UnityEngine.Renderer,UnityEngine.Mesh,Unity.Rendering.MeshRendererBakingUtility/ConversionMode,UnityEngine.Transform,Unity.Collections.NativeArray`1<Unity.Entities.Entity>&) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBakingUtility.cs:119)
+Unity.Rendering.MeshRendererBakingUtility:ConvertOnPrimaryEntityForSingleMaterial<UnityEngine.MeshRenderer> (Unity.Entities.Baker`1<UnityEngine.MeshRenderer>,UnityEngine.Renderer,UnityEngine.Mesh,Unity.Collections.NativeArray`1<Unity.Entities.Entity>&) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBakingUtility.cs:98)
+Unity.Rendering.MeshRendererBaker:Bake (UnityEngine.MeshRenderer) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBaking.cs:44)
+Unity.Entities.Baker`1<UnityEngine.MeshRenderer>:InvokeBake (Unity.Entities.IBaker/BakerExecutionState modreq(System.Runtime.InteropServices.InAttribute)&) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/Baker.cs:2253)
+Unity.Entities.BakedEntityData:ApplyBakeInstructions (Unity.Entities.Baking.BakeDependencies&,Unity.Entities.Baking.IncrementalBakingContext/IncrementalBakeInstructions,Unity.Entities.BlobAssetStore,Unity.Entities.BakingSettings,Unity.Entities.Baking.GameObjectComponents&) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakedEntityData.cs:834)
+Unity.Entities.BakingSystem:Bake (Unity.Entities.IncrementalBakingChangeTracker,UnityEngine.GameObject[]) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakingSystem.cs:155)
+Unity.Entities.BakingUtility:BakeScene (Unity.Entities.World,UnityEngine.SceneManagement.Scene,Unity.Entities.BakingSettings,bool,Unity.Entities.IncrementalBakingChangeTracker) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakingUtility.cs:84)
+Unity.Scenes.Editor.EditorEntityScenes:BakeAndWriteEntityScene (UnityEngine.SceneManagement.Scene,Unity.Entities.BakingSettings,System.Collections.Generic.List`1<Unity.Scenes.ReferencedUnityObjects>,Unity.Scenes.Editor.WriteEntitySceneSettings) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/EditorEntityScenes.cs:70)
+Unity.Scenes.Editor.SubSceneImporter:ImportBaking (UnityEditor.AssetImporters.AssetImportContext,UnityEngine.SceneManagement.Scene,Unity.Scenes.SceneWithBuildConfigurationGUIDs,Unity.Entities.Build.IEntitiesPlayerSettings,UnityEngine.GameObject) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/SubSceneImporter.cs:123)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/SubSceneImporter.cs:202)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+(Filename: ./Library/PackageCache/com.unity.entities/Unity.Entities/Stubs/Unity/Debug.cs Line: 22)
+
+Renderer on GameObject "Arrow_1_White" was not converted. The assigned mesh is null or no materials are assigned.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Unity.Debug:LogWarning (object,UnityEngine.Object) (at ./Library/PackageCache/com.unity.entities/Unity.Entities/Stubs/Unity/Debug.cs:22)
+Unity.Rendering.MeshRendererBakingUtility:ValidateMeshAndMaterials (UnityEngine.Renderer,UnityEngine.Mesh,UnityEngine.Material[]) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBakingUtility.cs:254)
+Unity.Rendering.MeshRendererBakingUtility:Convert<UnityEngine.MeshRenderer> (Unity.Entities.Baker`1<UnityEngine.MeshRenderer>,UnityEngine.Renderer,UnityEngine.Mesh,Unity.Rendering.MeshRendererBakingUtility/ConversionMode,UnityEngine.Transform,Unity.Collections.NativeArray`1<Unity.Entities.Entity>&) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBakingUtility.cs:119)
+Unity.Rendering.MeshRendererBakingUtility:ConvertOnPrimaryEntityForSingleMaterial<UnityEngine.MeshRenderer> (Unity.Entities.Baker`1<UnityEngine.MeshRenderer>,UnityEngine.Renderer,UnityEngine.Mesh,Unity.Collections.NativeArray`1<Unity.Entities.Entity>&) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBakingUtility.cs:98)
+Unity.Rendering.MeshRendererBaker:Bake (UnityEngine.MeshRenderer) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBaking.cs:44)
+Unity.Entities.Baker`1<UnityEngine.MeshRenderer>:InvokeBake (Unity.Entities.IBaker/BakerExecutionState modreq(System.Runtime.InteropServices.InAttribute)&) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/Baker.cs:2253)
+Unity.Entities.BakedEntityData:ApplyBakeInstructions (Unity.Entities.Baking.BakeDependencies&,Unity.Entities.Baking.IncrementalBakingContext/IncrementalBakeInstructions,Unity.Entities.BlobAssetStore,Unity.Entities.BakingSettings,Unity.Entities.Baking.GameObjectComponents&) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakedEntityData.cs:834)
+Unity.Entities.BakingSystem:Bake (Unity.Entities.IncrementalBakingChangeTracker,UnityEngine.GameObject[]) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakingSystem.cs:171)
+Unity.Entities.BakingUtility:BakeScene (Unity.Entities.World,UnityEngine.SceneManagement.Scene,Unity.Entities.BakingSettings,bool,Unity.Entities.IncrementalBakingChangeTracker) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakingUtility.cs:84)
+Unity.Scenes.Editor.EditorEntityScenes:BakeAndWriteEntityScene (UnityEngine.SceneManagement.Scene,Unity.Entities.BakingSettings,System.Collections.Generic.List`1<Unity.Scenes.ReferencedUnityObjects>,Unity.Scenes.Editor.WriteEntitySceneSettings) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/EditorEntityScenes.cs:70)
+Unity.Scenes.Editor.SubSceneImporter:ImportBaking (UnityEditor.AssetImporters.AssetImportContext,UnityEngine.SceneManagement.Scene,Unity.Scenes.SceneWithBuildConfigurationGUIDs,Unity.Entities.Build.IEntitiesPlayerSettings,UnityEngine.GameObject) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/SubSceneImporter.cs:123)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/SubSceneImporter.cs:202)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+(Filename: ./Library/PackageCache/com.unity.entities/Unity.Entities/Stubs/Unity/Debug.cs Line: 22)
+
+ -> (artifact id: 'c23db2dd9dfa03efb92c1b5cf53d04ff') in 3.5235189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 319
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 28.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.0 MB). Loaded Objects now: 8694.
+Memory consumption went from 174.8 MB to 172.7 MB.
+Total: 1778.906500 ms (FindLiveObjects: 22.510400 ms CreateObjectMapping: 5.741200 ms MarkObjects: 1718.838800 ms  DeleteObjects: 31.804000 ms)
+
+Prepare: number of updated asset objects reloaded= 125
+AssetImportParameters requested are different than current active one (requested -> active):
+  buildTarget: platform 19, subtarget 2, extendedPlatform 0 -> platform 2, subtarget 2, extendedPlatform 0
+  graphicsApiMask: 4 -> 65536
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 16.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (2.0 MB). Loaded Objects now: 8694.
+Memory consumption went from 174.6 MB to 172.6 MB.
+Total: 37.315500 ms (FindLiveObjects: 7.715100 ms CreateObjectMapping: 1.504300 ms MarkObjects: 23.735300 ms  DeleteObjects: 4.353700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  buildTarget: platform 19, subtarget 2, extendedPlatform 0 -> platform 2, subtarget 2, extendedPlatform 0
+  graphicsApiMask: 4 -> 65536
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Leak Detected : Persistent allocates 28 individual allocations. To find out more please enable 'Preferences > Jobs > Leak Detection Level > Enabled With Stack Trace' and reproduce the leak again.
+- Loaded All Assemblies, in 11.539 seconds
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 8.52 ms, found 4 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+TypeManager.Initialize took: 1797ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.919 seconds
+Domain Reload Profiling: 17424ms
+	BeginReloadAssembly (5480ms)
+		ExecutionOrderSort (7ms)
+		DisableScriptedObjects (566ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (9ms)
+		CreateAndSetChildDomain (3072ms)
+	RebuildCommonClasses (156ms)
+	RebuildNativeTypeToScriptingClass (52ms)
+	initialDomainReloadingComplete (231ms)
+	LoadAllAssembliesAndSetupDomain (5584ms)
+		LoadAssemblies (4211ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2056ms)
+			TypeCache.Refresh (1448ms)
+				TypeCache.ScanAssembly (1258ms)
+			BuildScriptInfoCaches (535ms)
+			ResolveRequiredComponents (42ms)
+	FinalizeReload (5921ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (5044ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (17ms)
+			BeforeProcessingInitializeOnLoad (674ms)
+			ProcessInitializeOnLoadAttributes (3502ms)
+			ProcessInitializeOnLoadMethodAttributes (790ms)
+			AfterProcessingInitializeOnLoad (36ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (53ms)
+Refreshing native plugins compatible for Editor in 8.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8001 unused Assets / (5.0 MB). Loaded Objects now: 8705.
+Memory consumption went from 179.1 MB to 174.1 MB.
+Total: 52.085300 ms (FindLiveObjects: 2.396000 ms CreateObjectMapping: 3.899000 ms MarkObjects: 34.390700 ms  DeleteObjects: 11.394200 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (5.7 MB). Loaded Objects now: 8705.
+Memory consumption went from 174.1 MB to 168.3 MB.
+Total: 38.029000 ms (FindLiveObjects: 1.447900 ms CreateObjectMapping: 1.698200 ms MarkObjects: 29.988600 ms  DeleteObjects: 4.888500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  buildTarget: platform 19, subtarget 2, extendedPlatform 0 -> platform 2, subtarget 2, extendedPlatform 0
+  graphicsApiMask: 4 -> 65536
+========================================================================
+Received Import Request.
+  Time since last request: 1678.402576 seconds.
+  path: Assets/MenuScene.unity
+  artifactKey: Guid(d43e516672216b241aa641271c22e2d2) Importer(2089858483,b4928d63cba0eb686c52b1d693c2cc83)
+Start importing Assets/MenuScene.unity using Guid(d43e516672216b241aa641271c22e2d2) Importer(2089858483,b4928d63cba0eb686c52b1d693c2cc83) (ScriptedImporter)Opening scene 'Assets/MenuScene.unity additively'
+Loaded scene 'Assets/MenuScene.unity'
+	Deserialize:            19.544 ms
+	Integration:            349.141 ms
+	Integration of assets:  0.370 ms
+	Thread Wait Time:       1.410 ms
+	Total Operation Time:   370.464 ms
+ -> (artifact id: '4554cfe5982149053e89d1baae518d74') in 0.6428988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.249818 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Small plants/Bush 1.prefab
-  artifactKey: Guid(6ef72bb910a30e94990f5308fd1a6931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Small plants/Bush 1.prefab using Guid(6ef72bb910a30e94990f5308fd1a6931) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0297d9878cb1400b61e0e38046b76a36') in 0.0385257 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+  Time since last request: 0.000047 seconds.
+  path: Assets/ModularFirstPersonController/DemoScene/Demo.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,b4928d63cba0eb686c52b1d693c2cc83)
+Start importing Assets/ModularFirstPersonController/DemoScene/Demo.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,b4928d63cba0eb686c52b1d693c2cc83) (ScriptedImporter)Opening scene 'Assets/ModularFirstPersonController/DemoScene/Demo.unity additively'
+Loaded scene 'Assets/ModularFirstPersonController/DemoScene/Demo.unity'
+	Deserialize:            10.942 ms
+	Integration:            87.261 ms
+	Integration of assets:  0.017 ms
+	Thread Wait Time:       0.035 ms
+	Total Operation Time:   98.255 ms
+ -> (artifact id: '1132c1dfd210e95a046e6a2e5799792c') in 0.2308092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 66
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Small plants/Bush 4.prefab
-  artifactKey: Guid(a0427d0365902014391f166483beafbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Small plants/Bush 4.prefab using Guid(a0427d0365902014391f166483beafbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab559dacc133c7331799597e06d689ae') in 0.0373855 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Small plants/Grass 2.prefab
-  artifactKey: Guid(8fae32cec5b1f7e4f952a2fcae3af09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Small plants/Grass 2.prefab using Guid(8fae32cec5b1f7e4f952a2fcae3af09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e8edc4ed739652eb4affa9389dc0ea6') in 0.1170278 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Small plants/Mushrooms 1.prefab
-  artifactKey: Guid(8e8ccc5cbd0aec9459afd5728beb14d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Small plants/Mushrooms 1.prefab using Guid(8e8ccc5cbd0aec9459afd5728beb14d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '166854bbf29a98164051b6e140756982') in 0.045041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Small plants/Moss 3.prefab
-  artifactKey: Guid(94157299136bcf046b2e13c29df24a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Small plants/Moss 3.prefab using Guid(94157299136bcf046b2e13c29df24a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e6ca741de10c7f6c0ffdbc4277af370') in 0.0402339 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Small plants/Moss 1.prefab
-  artifactKey: Guid(ad1d1f03cbc480d4393fa814ddf1b1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Small plants/Moss 1.prefab using Guid(ad1d1f03cbc480d4393fa814ddf1b1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '570bc0a3500eb1021fb04efbb6c551af') in 0.050675 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Small plants/Moss 2.prefab
-  artifactKey: Guid(10aba2913318a964db87ef7986e1072f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Small plants/Moss 2.prefab using Guid(10aba2913318a964db87ef7986e1072f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fecb43eca1457d9043f8fd81efc7e93') in 0.036929 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Small plants/Flower 5.prefab
-  artifactKey: Guid(2ff132d5c7c6c1e4399220fdf46ad60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Small plants/Flower 5.prefab using Guid(2ff132d5c7c6c1e4399220fdf46ad60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a1b1b963a4e2fcfa191f09472d85b49') in 0.0370454 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.441873 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Terrain/Hill 1.prefab
-  artifactKey: Guid(4e0f6542dd7b4ef4da974b21c6142754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Terrain/Hill 1.prefab using Guid(4e0f6542dd7b4ef4da974b21c6142754) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3583d1848a13f7c324b82031ee76660e') in 0.0393481 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+  Time since last request: 0.000050 seconds.
+  path: Assets/ModularFirstPersonController/DemoScene/Demo/1stsubscne.unity
+  artifactKey: Guid(3cf07c6863d70604188eb10f81ceaef5) Importer(2089858483,b4928d63cba0eb686c52b1d693c2cc83)
+Start importing Assets/ModularFirstPersonController/DemoScene/Demo/1stsubscne.unity using Guid(3cf07c6863d70604188eb10f81ceaef5) Importer(2089858483,b4928d63cba0eb686c52b1d693c2cc83) (ScriptedImporter)Opening scene 'Assets/ModularFirstPersonController/DemoScene/Demo/1stsubscne.unity additively'
+Loaded scene 'Assets/ModularFirstPersonController/DemoScene/Demo/1stsubscne.unity'
+	Deserialize:            32.149 ms
+	Integration:            33.565 ms
+	Integration of assets:  31.514 ms
+	Thread Wait Time:       0.081 ms
+	Total Operation Time:   97.309 ms
+ -> (artifact id: 'd37f14a64ce5a3783961e3f7dd2e04db') in 0.1726688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 279
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000044 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Terrain/Hill 5.prefab
-  artifactKey: Guid(80c35bdc844d68a4b8924f84ff207d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Terrain/Hill 5.prefab using Guid(80c35bdc844d68a4b8924f84ff207d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e90eb2328f2cf05cb4d0741c4809a5ca') in 0.0606448 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+  path: Assets/SceneDependencyCache/cfccba2d0776b72bd21337cd12d3c9cf.sceneWithBuildSettings
+  artifactKey: Guid(cfccba2d0776b72bd21337cd12d3c9cf) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/cfccba2d0776b72bd21337cd12d3c9cf.sceneWithBuildSettings using Guid(cfccba2d0776b72bd21337cd12d3c9cf) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) (ScriptedImporter)Opening scene 'Assets/ModularFirstPersonController/DemoScene/Demo/1stsubscne.unity additively'
+Loaded scene 'Assets/ModularFirstPersonController/DemoScene/Demo/1stsubscne.unity'
+	Deserialize:            15.215 ms
+	Integration:            12.731 ms
+	Integration of assets:  16.568 ms
+	Thread Wait Time:       0.061 ms
+	Total Operation Time:   44.575 ms
+Baking TrapPrefabs...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TrapPrefabsBaker:Bake (TrapPrefabsAuthoring) (at Assets/Script/ECS/TrapPrefabsAuthoring.cs:16)
+Unity.Entities.Baker`1<TrapPrefabsAuthoring>:InvokeBake (Unity.Entities.IBaker/BakerExecutionState modreq(System.Runtime.InteropServices.InAttribute)&) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/Baker.cs:2253)
+Unity.Entities.BakedEntityData:ApplyBakeInstructions (Unity.Entities.Baking.BakeDependencies&,Unity.Entities.Baking.IncrementalBakingContext/IncrementalBakeInstructions,Unity.Entities.BlobAssetStore,Unity.Entities.BakingSettings,Unity.Entities.Baking.GameObjectComponents&) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakedEntityData.cs:834)
+Unity.Entities.BakingSystem:Bake (Unity.Entities.IncrementalBakingChangeTracker,UnityEngine.GameObject[]) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakingSystem.cs:155)
+Unity.Entities.BakingUtility:BakeScene (Unity.Entities.World,UnityEngine.SceneManagement.Scene,Unity.Entities.BakingSettings,bool,Unity.Entities.IncrementalBakingChangeTracker) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakingUtility.cs:84)
+Unity.Scenes.Editor.EditorEntityScenes:BakeAndWriteEntityScene (UnityEngine.SceneManagement.Scene,Unity.Entities.BakingSettings,System.Collections.Generic.List`1<Unity.Scenes.ReferencedUnityObjects>,Unity.Scenes.Editor.WriteEntitySceneSettings) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/EditorEntityScenes.cs:70)
+Unity.Scenes.Editor.SubSceneImporter:ImportBaking (UnityEditor.AssetImporters.AssetImportContext,UnityEngine.SceneManagement.Scene,Unity.Scenes.SceneWithBuildConfigurationGUIDs,Unity.Entities.Build.IEntitiesPlayerSettings,UnityEngine.GameObject) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/SubSceneImporter.cs:123)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/SubSceneImporter.cs:202)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+(Filename: Assets/Script/ECS/TrapPrefabsAuthoring.cs Line: 16)
+
+Renderer on GameObject "Arrow_1_White" was not converted. The assigned mesh is null or no materials are assigned.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Unity.Debug:LogWarning (object,UnityEngine.Object) (at ./Library/PackageCache/com.unity.entities/Unity.Entities/Stubs/Unity/Debug.cs:22)
+Unity.Rendering.MeshRendererBakingUtility:ValidateMeshAndMaterials (UnityEngine.Renderer,UnityEngine.Mesh,UnityEngine.Material[]) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBakingUtility.cs:254)
+Unity.Rendering.MeshRendererBakingUtility:Convert<UnityEngine.MeshRenderer> (Unity.Entities.Baker`1<UnityEngine.MeshRenderer>,UnityEngine.Renderer,UnityEngine.Mesh,Unity.Rendering.MeshRendererBakingUtility/ConversionMode,UnityEngine.Transform,Unity.Collections.NativeArray`1<Unity.Entities.Entity>&) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBakingUtility.cs:119)
+Unity.Rendering.MeshRendererBakingUtility:ConvertOnPrimaryEntityForSingleMaterial<UnityEngine.MeshRenderer> (Unity.Entities.Baker`1<UnityEngine.MeshRenderer>,UnityEngine.Renderer,UnityEngine.Mesh,Unity.Collections.NativeArray`1<Unity.Entities.Entity>&) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBakingUtility.cs:98)
+Unity.Rendering.MeshRendererBaker:Bake (UnityEngine.MeshRenderer) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBaking.cs:44)
+Unity.Entities.Baker`1<UnityEngine.MeshRenderer>:InvokeBake (Unity.Entities.IBaker/BakerExecutionState modreq(System.Runtime.InteropServices.InAttribute)&) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/Baker.cs:2253)
+Unity.Entities.BakedEntityData:ApplyBakeInstructions (Unity.Entities.Baking.BakeDependencies&,Unity.Entities.Baking.IncrementalBakingContext/IncrementalBakeInstructions,Unity.Entities.BlobAssetStore,Unity.Entities.BakingSettings,Unity.Entities.Baking.GameObjectComponents&) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakedEntityData.cs:834)
+Unity.Entities.BakingSystem:Bake (Unity.Entities.IncrementalBakingChangeTracker,UnityEngine.GameObject[]) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakingSystem.cs:155)
+Unity.Entities.BakingUtility:BakeScene (Unity.Entities.World,UnityEngine.SceneManagement.Scene,Unity.Entities.BakingSettings,bool,Unity.Entities.IncrementalBakingChangeTracker) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakingUtility.cs:84)
+Unity.Scenes.Editor.EditorEntityScenes:BakeAndWriteEntityScene (UnityEngine.SceneManagement.Scene,Unity.Entities.BakingSettings,System.Collections.Generic.List`1<Unity.Scenes.ReferencedUnityObjects>,Unity.Scenes.Editor.WriteEntitySceneSettings) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/EditorEntityScenes.cs:70)
+Unity.Scenes.Editor.SubSceneImporter:ImportBaking (UnityEditor.AssetImporters.AssetImportContext,UnityEngine.SceneManagement.Scene,Unity.Scenes.SceneWithBuildConfigurationGUIDs,Unity.Entities.Build.IEntitiesPlayerSettings,UnityEngine.GameObject) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/SubSceneImporter.cs:123)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/SubSceneImporter.cs:202)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+(Filename: ./Library/PackageCache/com.unity.entities/Unity.Entities/Stubs/Unity/Debug.cs Line: 22)
+
+Renderer on GameObject "Arrow_1_White" was not converted. The assigned mesh is null or no materials are assigned.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Unity.Debug:LogWarning (object,UnityEngine.Object) (at ./Library/PackageCache/com.unity.entities/Unity.Entities/Stubs/Unity/Debug.cs:22)
+Unity.Rendering.MeshRendererBakingUtility:ValidateMeshAndMaterials (UnityEngine.Renderer,UnityEngine.Mesh,UnityEngine.Material[]) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBakingUtility.cs:254)
+Unity.Rendering.MeshRendererBakingUtility:Convert<UnityEngine.MeshRenderer> (Unity.Entities.Baker`1<UnityEngine.MeshRenderer>,UnityEngine.Renderer,UnityEngine.Mesh,Unity.Rendering.MeshRendererBakingUtility/ConversionMode,UnityEngine.Transform,Unity.Collections.NativeArray`1<Unity.Entities.Entity>&) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBakingUtility.cs:119)
+Unity.Rendering.MeshRendererBakingUtility:ConvertOnPrimaryEntityForSingleMaterial<UnityEngine.MeshRenderer> (Unity.Entities.Baker`1<UnityEngine.MeshRenderer>,UnityEngine.Renderer,UnityEngine.Mesh,Unity.Collections.NativeArray`1<Unity.Entities.Entity>&) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBakingUtility.cs:98)
+Unity.Rendering.MeshRendererBaker:Bake (UnityEngine.MeshRenderer) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBaking.cs:44)
+Unity.Entities.Baker`1<UnityEngine.MeshRenderer>:InvokeBake (Unity.Entities.IBaker/BakerExecutionState modreq(System.Runtime.InteropServices.InAttribute)&) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/Baker.cs:2253)
+Unity.Entities.BakedEntityData:ApplyBakeInstructions (Unity.Entities.Baking.BakeDependencies&,Unity.Entities.Baking.IncrementalBakingContext/IncrementalBakeInstructions,Unity.Entities.BlobAssetStore,Unity.Entities.BakingSettings,Unity.Entities.Baking.GameObjectComponents&) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakedEntityData.cs:834)
+Unity.Entities.BakingSystem:Bake (Unity.Entities.IncrementalBakingChangeTracker,UnityEngine.GameObject[]) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakingSystem.cs:171)
+Unity.Entities.BakingUtility:BakeScene (Unity.Entities.World,UnityEngine.SceneManagement.Scene,Unity.Entities.BakingSettings,bool,Unity.Entities.IncrementalBakingChangeTracker) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakingUtility.cs:84)
+Unity.Scenes.Editor.EditorEntityScenes:BakeAndWriteEntityScene (UnityEngine.SceneManagement.Scene,Unity.Entities.BakingSettings,System.Collections.Generic.List`1<Unity.Scenes.ReferencedUnityObjects>,Unity.Scenes.Editor.WriteEntitySceneSettings) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/EditorEntityScenes.cs:70)
+Unity.Scenes.Editor.SubSceneImporter:ImportBaking (UnityEditor.AssetImporters.AssetImportContext,UnityEngine.SceneManagement.Scene,Unity.Scenes.SceneWithBuildConfigurationGUIDs,Unity.Entities.Build.IEntitiesPlayerSettings,UnityEngine.GameObject) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/SubSceneImporter.cs:123)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/SubSceneImporter.cs:202)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+(Filename: ./Library/PackageCache/com.unity.entities/Unity.Entities/Stubs/Unity/Debug.cs Line: 22)
+
+ -> (artifact id: '1bf12558cc4c6c7fba892973e5f0fbc4') in 3.3250428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 319
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Terrain/Plain 1.prefab
-  artifactKey: Guid(bc5a21a6b91cb5648a71b088c26836f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Terrain/Plain 1.prefab using Guid(bc5a21a6b91cb5648a71b088c26836f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75220d776a88827210ba2e2262cde173') in 0.0418662 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Terrain/Mountain 1.prefab
-  artifactKey: Guid(39f8481514165ff4fa09167d4b17c312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Terrain/Mountain 1.prefab using Guid(39f8481514165ff4fa09167d4b17c312) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6fc6140cc83334e520aee68ff18e9c9c') in 0.0450038 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.662138 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Trees/Branch 2.prefab
-  artifactKey: Guid(24c5fe0774da9f443867120e3f062ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Trees/Branch 2.prefab using Guid(24c5fe0774da9f443867120e3f062ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '395df5e6bd2288186530ef874c1f1c74') in 0.044844 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Trees/Leafless 1.prefab
-  artifactKey: Guid(840032a93221d4148bae5f50f3a52c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Trees/Leafless 1.prefab using Guid(840032a93221d4148bae5f50f3a52c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '550165625f8199a1c20e383536fd16e4') in 0.0380567 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Trees/Pine 1.prefab
-  artifactKey: Guid(2dec5811573ab714eab89b60025864f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Trees/Pine 1.prefab using Guid(2dec5811573ab714eab89b60025864f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '392484834b76e314c8517f09752eceef') in 0.0439698 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Trees/Stump 1.prefab
-  artifactKey: Guid(7bc95c43b0ddc924e8b3f642353f532d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Trees/Stump 1.prefab using Guid(7bc95c43b0ddc924e8b3f642353f532d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8446628013d6580eaa60b2fb521e8004') in 0.0488232 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Trees/Tree 11.prefab
-  artifactKey: Guid(a8dedc476e52ef743af8a5fc1334ed5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Trees/Tree 11.prefab using Guid(a8dedc476e52ef743af8a5fc1334ed5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40113cf13988dd1acbfb5fe15f14b959') in 0.0411983 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Trees/Log 2.prefab
-  artifactKey: Guid(c0afc7a5f000aed429343677e95d08cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Trees/Log 2.prefab using Guid(c0afc7a5f000aed429343677e95d08cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f7a960ed0bc64e522d3131e710ccaa5') in 0.0490477 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Trees/Tree 9.prefab
-  artifactKey: Guid(6314c1bf9406ce149b2072e40e265adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Trees/Tree 9.prefab using Guid(6314c1bf9406ce149b2072e40e265adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3016729948a63aaed7818ef8b68db019') in 0.0430927 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Trees/Tree 2.prefab
-  artifactKey: Guid(164309c28d7e37f4692e43067bb577ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Trees/Tree 2.prefab using Guid(164309c28d7e37f4692e43067bb577ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc5772eadad24688fced2de378f5afd5') in 0.0491238 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Trees/Leafless 2.prefab
-  artifactKey: Guid(47f181df74de6404e8b1ba52cfcb1425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Trees/Leafless 2.prefab using Guid(47f181df74de6404e8b1ba52cfcb1425) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eacc19f316a9b185543194c5baedb9c7') in 0.0471134 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Low Poly Woods/Prefabs/Trees/Tree 6.prefab
-  artifactKey: Guid(0dce3e9b1d4fdf54ca7a947e1ce71415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Woods/Prefabs/Trees/Tree 6.prefab using Guid(0dce3e9b1d4fdf54ca7a947e1ce71415) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20be952f9e7d2f65799c06469d562f9f') in 0.0411776 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.145385 seconds.
-  path: Assets/Low Poly Trim Sheet Asset Collection/TrimSheet_Textures/Trimsheet_Sandstone_Diffuse.png
-  artifactKey: Guid(caaa2bc3cff91c842866dda0178199d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Trim Sheet Asset Collection/TrimSheet_Textures/Trimsheet_Sandstone_Diffuse.png using Guid(caaa2bc3cff91c842866dda0178199d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '354d324e6f659e4dd6f45c2bd1d7bc87') in 0.1255452 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Low Poly Trim Sheet Asset Collection/TrimSheet_Textures/Trimsheet_Sandstone_Metallic.png
-  artifactKey: Guid(4d491727cebdffb4783f2837338d784c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Trim Sheet Asset Collection/TrimSheet_Textures/Trimsheet_Sandstone_Metallic.png using Guid(4d491727cebdffb4783f2837338d784c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f83eacb59065169cdc158f9069d085d') in 0.0367999 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.405702 seconds.
-  path: Assets/Low Poly Trim Sheet Asset Collection/TrimSheet_Models/Pillar.fbx
-  artifactKey: Guid(ffbfb12407ed73847938f39e70242088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Trim Sheet Asset Collection/TrimSheet_Models/Pillar.fbx using Guid(ffbfb12407ed73847938f39e70242088) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab3a9ec8ed2ff7e188503364fdbe79fa') in 0.192043 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Low Poly Trim Sheet Asset Collection/TrimSheet_Models/Platform.fbx
-  artifactKey: Guid(9cb7be73ab6746341bfc05527ab381c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Trim Sheet Asset Collection/TrimSheet_Models/Platform.fbx using Guid(9cb7be73ab6746341bfc05527ab381c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '632c84566bfe0b2d5e0ca13cbff32338') in 0.0560938 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.849209 seconds.
-  path: Assets/Low Poly Trim Sheet Asset Collection/TrimSheet_Prefabs/Pillar.prefab
-  artifactKey: Guid(f953dd42b31bfc94898bdc486560e6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Trim Sheet Asset Collection/TrimSheet_Prefabs/Pillar.prefab using Guid(f953dd42b31bfc94898bdc486560e6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '109c8e4685696db87ee7d5db2fa72b48') in 0.1837546 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/Low Poly Trim Sheet Asset Collection/TrimSheet_Prefabs/Platform.prefab
-  artifactKey: Guid(2545b8bdb5734324aaa1f93315b26b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Trim Sheet Asset Collection/TrimSheet_Prefabs/Platform.prefab using Guid(2545b8bdb5734324aaa1f93315b26b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15cef0eb6d8c599ae19f7a5ebc224872') in 0.0975576 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 60.255519 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Axe_3_Gray.fbx
-  artifactKey: Guid(e4386157532b0e6429a9558793172e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Axe_3_Gray.fbx using Guid(e4386157532b0e6429a9558793172e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb0bf75e2e17d000382d73ee11b8019a') in 0.2798879 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Axe_3_White.fbx
-  artifactKey: Guid(a2903209aeb7ee9419dd69be83c25413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Axe_3_White.fbx using Guid(a2903209aeb7ee9419dd69be83c25413) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f96594f082ad01fc8240de595a7716da') in 0.1431808 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.540032 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Banner_3_Black.fbx
-  artifactKey: Guid(607955bba3e4a994cb6e964fe2034293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Banner_3_Black.fbx using Guid(607955bba3e4a994cb6e964fe2034293) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d528725ef9c9ff76ad1aeb99d83a164') in 0.2744482 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.673927 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Banner_3_Gray.fbx
-  artifactKey: Guid(6cc3e414467fdb848bd25757a40e8eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Banner_3_Gray.fbx using Guid(6cc3e414467fdb848bd25757a40e8eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15441944bff669c9eec028a3900bc658') in 0.1820504 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Banner_4_Red.fbx
-  artifactKey: Guid(d3ca784708c45f844a74497352f448d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Banner_4_Red.fbx using Guid(d3ca784708c45f844a74497352f448d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf8134455c6a9011b903a381cdaf90ec') in 0.1618186 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Banner_3_White.fbx
-  artifactKey: Guid(c70c5cb10be524942b90df78a043ae8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Banner_3_White.fbx using Guid(c70c5cb10be524942b90df78a043ae8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7415d39ab1fe246b251ab5623952c77') in 0.2079422 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Banner_5_White.fbx
-  artifactKey: Guid(a03cfd5c38ecee44d80134fa2197a9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Banner_5_White.fbx using Guid(a03cfd5c38ecee44d80134fa2197a9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1711043005dacdcf89fe0d6f3dba71a') in 0.132697 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Barrel_3_Red.fbx
-  artifactKey: Guid(6c10083f7c22bb74b8688e18ab93b984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Barrel_3_Red.fbx using Guid(6c10083f7c22bb74b8688e18ab93b984) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb04f86325ecb08faa8b4ef53832d235') in 0.1671167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Barrel_2_White.fbx
-  artifactKey: Guid(8305628742b345744a6272f8b55e6900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Barrel_2_White.fbx using Guid(8305628742b345744a6272f8b55e6900) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c12109c5e91fd4f13b7ef62e17564258') in 0.1633211 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Banner_4_White.fbx
-  artifactKey: Guid(2f0c97b6327bf3c4f86de7721d0b7b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Banner_4_White.fbx using Guid(2f0c97b6327bf3c4f86de7721d0b7b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8392b94902045493c0d6c19d471d2ae') in 0.1569035 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Barrel_3_Brown.fbx
-  artifactKey: Guid(44998e7998983754fa9537f2864a052f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Barrel_3_Brown.fbx using Guid(44998e7998983754fa9537f2864a052f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59209c7618d152205c7fff5fddc2b6cc') in 0.1499144 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Barrel_2_Gray.fbx
-  artifactKey: Guid(2dfe0e5994adc7b4b9bbfde69e22d168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Barrel_2_Gray.fbx using Guid(2dfe0e5994adc7b4b9bbfde69e22d168) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '963816ca5cba8ad460adb0927f8693cf') in 0.1854162 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Banner_5_Black.fbx
-  artifactKey: Guid(e757a4bd28833af4bbe261622b33c1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Banner_5_Black.fbx using Guid(e757a4bd28833af4bbe261622b33c1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c3ee61952f736575e389d111dcf52c4') in 0.1128998 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Barrel_4_Black.fbx
-  artifactKey: Guid(4cd1877d30c266e4e92ff199b18bc475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Barrel_4_Black.fbx using Guid(4cd1877d30c266e4e92ff199b18bc475) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bc081394388d8108dda03cf806806f9') in 0.1546783 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Barrel_5_White.fbx
-  artifactKey: Guid(53a8cf88459d51941a3a25ddb937528a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Barrel_5_White.fbx using Guid(53a8cf88459d51941a3a25ddb937528a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'befc21d9683c2877a0d53b6be749bc86') in 0.2098135 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Barrel_4_Brown.fbx
-  artifactKey: Guid(c1ea1c95aaa679745bff80928a64a85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Barrel_4_Brown.fbx using Guid(c1ea1c95aaa679745bff80928a64a85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c238d51d3bb7818d0db2dd6d8018ea86') in 0.1704147 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Book_1_Red.fbx
-  artifactKey: Guid(c7bcfd4955a9808459f9d7ebd7ec82d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Book_1_Red.fbx using Guid(c7bcfd4955a9808459f9d7ebd7ec82d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89a76acd42466984e14c54ef5d8b33f9') in 0.1953056 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Barrel_5_Gray.fbx
-  artifactKey: Guid(5c911585c9ee0f840a1798621d613f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Barrel_5_Gray.fbx using Guid(5c911585c9ee0f840a1798621d613f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a482676a4b8a1b76fbbc7bec95529813') in 0.1548781 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Barrel_4_Gray.fbx
-  artifactKey: Guid(2f53d16c81050c546a4ae66b65449bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Barrel_4_Gray.fbx using Guid(2f53d16c81050c546a4ae66b65449bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f3bac7500572c04a6207cea5e7acc34') in 0.1768712 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Book_2_Red.fbx
-  artifactKey: Guid(380a3e50f163afe48a9f4d4ebe0f7b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Book_2_Red.fbx using Guid(380a3e50f163afe48a9f4d4ebe0f7b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67cc23baee76d7a9035f01a9b9e7b3f6') in 0.1550262 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Book_2_White.fbx
-  artifactKey: Guid(0b4dcbec7bf01b34ba6f7a3667c6c58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Book_2_White.fbx using Guid(0b4dcbec7bf01b34ba6f7a3667c6c58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c154c8ce79c13897733a95c05cd321f3') in 0.1630715 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Book_2_Brown.fbx
-  artifactKey: Guid(d2abcbc76b3c374428b6063f7c2fdabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Book_2_Brown.fbx using Guid(d2abcbc76b3c374428b6063f7c2fdabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6c697088778cdc3c9321fc29dc84ba9') in 0.1612671 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Book_4_Black.fbx
-  artifactKey: Guid(09f818a11ed6d0d488dad173ea9dca14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Book_4_Black.fbx using Guid(09f818a11ed6d0d488dad173ea9dca14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7b9c55559844720ef50a85b21cc3e4a') in 0.1593995 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Book_4_Gray.fbx
-  artifactKey: Guid(32953b8e3035318429df0a513455f16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Book_4_Gray.fbx using Guid(32953b8e3035318429df0a513455f16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df47113f3f61998538347c7b1189829f') in 0.1337315 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Book_4_Brown.fbx
-  artifactKey: Guid(390504fe112ac254bb2b9cecb2cdb602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Book_4_Brown.fbx using Guid(390504fe112ac254bb2b9cecb2cdb602) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ad4653139fb6d0ed46a5090f2d94d76') in 0.1326652 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Book_3_Gray.fbx
-  artifactKey: Guid(a1d9854def17b6d4b90457167b83e1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Book_3_Gray.fbx using Guid(a1d9854def17b6d4b90457167b83e1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb3ede04d6e622d3f993f3d527743e67') in 0.1706527 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Book_2_Black.fbx
-  artifactKey: Guid(c79ce44e7fd43f14bb512b1a28159735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Book_2_Black.fbx using Guid(c79ce44e7fd43f14bb512b1a28159735) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27259a6fedbd518d463c796b51601d54') in 0.1369341 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Barrel_2_Red.fbx
-  artifactKey: Guid(d53fb934aea62b446b7a6c3d8de9e249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Barrel_2_Red.fbx using Guid(d53fb934aea62b446b7a6c3d8de9e249) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db750ac8a61fe7b4918e7a0707171c76') in 0.1557741 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Book_5_Gray.fbx
-  artifactKey: Guid(e7331188492612f40bb6a8a159330e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Book_5_Gray.fbx using Guid(e7331188492612f40bb6a8a159330e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26197e59324afaf3fd613b687e9e5ed7') in 0.1565679 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Book_4_White.fbx
-  artifactKey: Guid(53fe69ab379292145b7b1f001c8e426d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Book_4_White.fbx using Guid(53fe69ab379292145b7b1f001c8e426d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ceca0586412f687b552aa83a1e9a0479') in 0.1441001 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Bottle_1_Brown.fbx
-  artifactKey: Guid(ff948d38133f18b4397fa708dda6163e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Bottle_1_Brown.fbx using Guid(ff948d38133f18b4397fa708dda6163e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92b6317110726002864f4fa58469addb') in 0.1187444 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Book_5_Black.fbx
-  artifactKey: Guid(fee7b0011539aa2498777eec6d769af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Book_5_Black.fbx using Guid(fee7b0011539aa2498777eec6d769af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e1d1a3b25f95ef89dea853f3206468e') in 0.1510198 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Bottle_1_White.fbx
-  artifactKey: Guid(0ac86ccefe7253e49a36fe0ffbff65ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Bottle_1_White.fbx using Guid(0ac86ccefe7253e49a36fe0ffbff65ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1afab7966ea694dd29f36f6c8001666f') in 0.1215337 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Bottle_1_Black.fbx
-  artifactKey: Guid(eef833cdd05dc3b449b407afd9c0138d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Bottle_1_Black.fbx using Guid(eef833cdd05dc3b449b407afd9c0138d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e27b22f4798a9daa7b948ba9ba0b74b8') in 0.1495377 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Barrel_4_Red.fbx
-  artifactKey: Guid(a2958507f375005439459b73465d0959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Barrel_4_Red.fbx using Guid(a2958507f375005439459b73465d0959) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9831358acbd83ad6496a97642908e31') in 0.1602353 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Barrel_1_Black.fbx
-  artifactKey: Guid(8b167e733fe00c848b72f27b5d506a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Barrel_1_Black.fbx using Guid(8b167e733fe00c848b72f27b5d506a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78389fecc050212af61a2968b9a5f3eb') in 0.1080247 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Models/Book_5_Brown.fbx
-  artifactKey: Guid(4a0591a2d29d06a40a12bd765e084be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Models/Book_5_Brown.fbx using Guid(4a0591a2d29d06a40a12bd765e084be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '362eb053935ff09203237f96c889e1a6') in 0.157824 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.688877 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Prefabs/Stones/Stone_2_Gray.prefab
-  artifactKey: Guid(1639fdbbc6e92e84e94a352044614b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Stones/Stone_2_Gray.prefab using Guid(1639fdbbc6e92e84e94a352044614b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a45bace229967ab4c067804dabb4251') in 0.0583221 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Prefabs/Stones/Stone_3_Black.prefab
-  artifactKey: Guid(073a5500599cfd741b4636d890943b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Stones/Stone_3_Black.prefab using Guid(073a5500599cfd741b4636d890943b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f02079c634cfa5fedda5d9966b360930') in 0.0348496 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Prefabs/Stones/Stone_3_White.prefab
-  artifactKey: Guid(4358b9f05e36a134aa510ade108d90fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Stones/Stone_3_White.prefab using Guid(4358b9f05e36a134aa510ade108d90fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb2936b71e3d619202d8c4f59d86f56e') in 0.0357996 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Prefabs/Stones/Stone_5_White.prefab
-  artifactKey: Guid(db35f6724edb3ce429a24a7dccc544aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Stones/Stone_5_White.prefab using Guid(db35f6724edb3ce429a24a7dccc544aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a554c6e4eeeb9356ee0c14446d9513e3') in 0.0389981 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Prefabs/Stones/Stone_4_Brown.prefab
-  artifactKey: Guid(a6dac588970c94941b3b4c34f9011090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Stones/Stone_4_Brown.prefab using Guid(a6dac588970c94941b3b4c34f9011090) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a48f7f183f1d5af08f4092899f77c352') in 0.0334581 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Prefabs/Stones/Stone_4_White.prefab
-  artifactKey: Guid(4e4fec1e06629474abf18ab113545425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Stones/Stone_4_White.prefab using Guid(4e4fec1e06629474abf18ab113545425) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba9ab044e301ffdc512956b120d46bb5') in 0.040045 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Prefabs/Stones/Stone_3_Brown.prefab
-  artifactKey: Guid(978e89aef5d6e3c4eac5e031326ae090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Stones/Stone_3_Brown.prefab using Guid(978e89aef5d6e3c4eac5e031326ae090) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06667f09647b72127b98d09b98cf802e') in 0.0432148 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/AA Low Poly Medieval Environment/Prefabs/Stones/Stone_4_Gray.prefab
-  artifactKey: Guid(72606fc4fbe0a6c46ab29ef0be385765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AA Low Poly Medieval Environment/Prefabs/Stones/Stone_4_Gray.prefab using Guid(72606fc4fbe0a6c46ab29ef0be385765) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c3a93cad7030b18541c472e7151f809') in 0.0430582 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0

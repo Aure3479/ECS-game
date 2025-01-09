@@ -14,12 +14,16 @@ public partial struct TrapMatrixSpawnSystem : ISystem
     private bool hasSpawned;
 
     // Paramètres du “couloir” en Z
-    private const int nbLines = 10;    // nombre de segments
+    private const int nbLines = 60;    // nombre de segments
     private const int nbCols = 3;     // gauche / centre / droite
-    private const float spacingZ = 8f; // distance entre lignes
+    private const float spacingZ = 3f; // distance entre lignes
     private const float spacingX = 4f; // distance entre colonnes
     private const float startZ = 10f;// commence un peu plus loin
 
+    public void OnCreate(ref SystemState state)
+    {
+        state.RequireForUpdate<TrapPrefabsData>();
+    }
     public void OnUpdate(ref SystemState state)
     {
         // on le fait qu'une fois
@@ -72,7 +76,7 @@ public partial struct TrapMatrixSpawnSystem : ISystem
                     Entity e = ecb.Instantiate(prefab);
 
                     // random scale
-                    float rScale = 1f + UnityEngine.Random.Range(0f, 0.5f);
+                    float rScale = 1f + UnityEngine.Random.Range(0f, 1.5f);
 
                     // Rotation de base
                     quaternion baseRot = quaternion.identity;
@@ -89,7 +93,7 @@ public partial struct TrapMatrixSpawnSystem : ISystem
                     ecb.AddComponent(e, new DestroyWhenOutOfBoundData
                     {
                         limitX = 10f, // couloir ±10
-                        maxZ = 120f
+                        maxZ = 220f
                     });
 
                     // on configure en fonction du type
@@ -104,6 +108,7 @@ public partial struct TrapMatrixSpawnSystem : ISystem
                             }
                         case 1: // movingAxe => on lui ajoute un LeftRightTrapData
                             {
+                                Debug.Log("moving axe chosen");
                                 float dir = 0f;
                                 bool isLeft = (j == 0);
                                 bool isRight = (j == nbCols - 1);

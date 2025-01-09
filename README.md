@@ -62,6 +62,8 @@ Was made using Unity Editor version 6000.031f1 ... so a similiar build is necess
 
 Here is the video of the game in the Unity editor  [Download Demo Video](demo.mp4)
 
+You can move with the usual WASD buttons (or ZQSD for AZERTY) and press space to jump
+ 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 

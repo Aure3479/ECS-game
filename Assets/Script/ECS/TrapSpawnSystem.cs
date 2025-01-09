@@ -75,7 +75,7 @@ public partial struct TrapSpawnSystem : ISystem
             ecb.AddComponent(newTrap, new DestroyWhenOutOfBoundData
             {
                 limitX = couloirOffsetX * 1.2f,
-                maxZ = 100f // par ex. si on veut détruire si le piège s'avance trop loin en Z
+                maxZ = 200f // par ex. si on veut détruire si le piège s'avance trop loin en Z
             });
 
             // On pourrait aussi augmenter la vitesse en fonction de la distance Z
